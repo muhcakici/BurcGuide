@@ -9,6 +9,7 @@ class BurcItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: non_constant_identifier_names
     var MyTextStyle = Theme.of(context).textTheme;
     return Padding(
       padding: const EdgeInsets.all(4.0),
@@ -35,7 +36,7 @@ class BurcItem extends StatelessWidget {
               listelenenBurc.burcTarihi,
               style: MyTextStyle.subtitle1,
             ),
-            trailing: Icon(
+            trailing: const Icon(
               Icons.arrow_forward_ios,
               color: Colors.pink,
             ),
